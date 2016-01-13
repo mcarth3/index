@@ -1,0 +1,89 @@
+
+body {
+	font-family:Arial,verdana,san-serif;
+	fon-size: 14px;
+	color: black;
+	background-image:url('images/retina_wood.png');
+	background-repeat: :no-repeat;
+	background-position; right top;
+			
+}
+
+
+#header {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	right: 25px;
+	height: 200px;
+	z-index: 2;
+}
+
+#navigation {
+	position: absolute;
+	top: 155px;
+	left: 10px;
+	width: 125px;
+	bottom: 10px;
+	background-color: none;
+	border-right: 1px solid #999999;
+	zindex: 1;
+}
+
+#mainbody {
+	position:absolute;
+	top: 145px;
+	left: 145px;
+	right: 10px;
+	bottom: 10px;
+	background-color: none;
+	border: 2px solid #AAAAAA
+	z-index: 3;
+}
+
+#photo {float: left; 
+	margin-right: 10px;
+	transition: width 2s, height 2s, transorm 2s 
+	-moz-transition: width 2s, height 2s, -webkit-transorm 2s;
+	-o-transition: width 2s, height 2s,-otransform 2s;
+
+}
+
+
+#info {position: absolute; left: 200px;}
+
+h1 {color:#242251;}
+
+p {
+	color:#666666;}
+	text-align; justify;
+	line-height: 1.0;
+}
+			
+p.contact {color: black;}
+
+.subHeading {font-weight: bold;}
+
+p.sales {color: black;}
+
+.subSales {font-weight:bold;}
+
+.biography {background-color: #DAC582}
+.goals {background-color: #AB8860}
+
+			
+
+
+a:link {color: #242251; 
+	text-decoration: none;
+	font-weight: bold
+	text-shadow: 2px 2px 2px #cccccc;
+	line-height: 2.0
+}
+a:hover {text-decoration: underline;}
+a:visited {color; #5D4157;}
+
+
+			
+			
+	
